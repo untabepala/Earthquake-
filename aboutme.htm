@@ -1,0 +1,99 @@
+<html>
+<style>
+body {
+height: 1500px;
+  background-color: gray; 
+  background-image: linear-gradient(to bottom right,black,gray, white);
+padding-right: 30px;
+  padding-left: 80px;
+background-color:#686868;
+  font-family: Monospace;
+font-size: 20px;
+color: white;
+}
+h1{
+font-size:30px;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color:black;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+</style>
+<body>
+
+<h2 style="color:white">Comments Section</h2>
+<p>I'm Nayani Tharushika.I am Undergraduate student (20APC4653) in Sabaragamuwa University of Sri Lanka.
+This is my first web page in HTML.Can you give me a little feedback? <img src="download.jpeg" width="30" height="40"></p>
+<section>
+<h3>If you like to Enter your name.You can enter below.</h3>
+<form action="thankyou.html" method="GET">
+ <fieldset>
+  <legend>Comments:</legend>
+         First name: <input type = "text" name = "first_name" /> <br>
+         Last name: <input type = "text" name = "last_name" /> <br>
+<section>
+<h3>Comments</h3>
+Comment here...:<textarea cols="20" rows="5" value="address"></textarea><br>
+</section>
+ </fieldset>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"> 
+</form>
+</section>
+
+<section>
+<h3>If you have to tell me Something.You can send me a Email.</h3>
+<a href="mailto:nayanitharushika0@gmail.com?subject=Feedback&body=Message">Click here to send me a Mail</a>
+</section>
+<section>
+<form >
+<h3>Can you rate my page <img src="download (1).png" width="20" height="20"></h3>
+<label for="rate">Rate here...</lable>
+<select name="rate" id="rate">
+<option value="one">*</option>
+<option value="two">**</option>
+<option value="three">***</option>  
+<option value="four">****</option>  
+<option value="five">*****</option>
+</section>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"> 
+</form>
+
+<hr>
+
+<section>
+<a href="thankyou.html">Thank You</a>
+</section>
+<h1>Thank You</h1>
+<div class="pagination">
+  <a href="MY WEB SITE.html" >&laquo;</a>
+  <a href="MY WEB SITE.html" >1</a>
+  <a href="home.htm" >2</a>
+  <a href="reasons.htm">3</a>
+  <a href="damage.htm">4</a>
+  <a href="history.htm">5</a>
+  <a href="safety.htm">6</a>
+  <a href="aboutme.htm"class="active">7</a>
+  <a href="MY WEB SITE.html">&raquo;</a>
+</div>
+</body>
+</html>
+</body>
+</html>

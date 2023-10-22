@@ -1,0 +1,66 @@
+<html>
+<style>
+body {
+height: 1500px;
+  background-color: gray; 
+  background-image: linear-gradient(to bottom right,black,gray, white);
+padding-right: 30px;
+  padding-left: 80px;
+background-color:#686868;
+  font-family: Monospace;
+font-size: 20px;
+}
+h1{
+font-size:30px;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color:black;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+<body>
+
+<h1 style="color:white">How earthquakes happen</h1>
+<p style="color:navy">Earthquakes are usually caused <b>when underground rock suddenly breaks and there is rapid motion along a fault.</b> This sudden release of energy causes the seismic waves that make the ground shake.</p>
+<button type="button" onclick="playVid()">Play Video</button>
+<button type="button" onclick="pauseVid()">Pause Video</button><br>
+<video width="320" height="240" controls>
+  <source src="WhatsApp Video 2022-09-27 at 17.07.09.mp4" type="video/mp4">
+  <source src="WhatsApp Video 2022-09-27 at 17.07.09.ogg" type="video/ogg">
+ </video>
+<hr>
+<h3>The size of the earthquake is measured by the Richter unit</h3>
+<p style="color:navy">The <b><span style="color:#20B2AA">Richter scale</span></b> measures the largest wiggle (amplitude) on the recording, but other magnitude scales measure different parts of the earthquake. The USGS currently reports earthquake magnitudes using the Moment Magnitude scale, though many other magnitudes are calculated for research and comparison purposes.</p>
+<p><small>This video has not sounds</small></p>
+<video width="320" height="240" controls>
+  <source src="istockphoto-926753596-640_adpp_is.mp4" type="video/mp4">
+  <source src="istockphoto-926753596-640_adpp_is.ogg" type="video/ogg">
+ </video>
+<hr>
+<div class="pagination">
+  <a href="MY WEB SITE.html" >&laquo;</a>
+  <a href="MY WEB SITE.html" >1</a>
+  <a href="home.htm" >2</a>
+  <a href="reasons.htm"class="active">3</a>
+  <a href="damage.htm">4</a>
+  <a href="history.htm">5</a>
+  <a href="safety.htm">6</a>
+  <a href="aboutme.htm">7</a>
+  <a href="MY WEB SITE.html">&raquo;</a>
+</div>
+</body>
+</html>
